@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Ground Pepper Catering</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script>
+        // Set active page (add to each HTML file)
+        document.addEventListener('DOMContentLoaded', function() {
+            const currentPage = window.location.pathname.split('/').pop();
+            document.querySelectorAll('.nav-link').forEach(link => {
+                if (link.getAttribute('href') === currentPage) {
+                    link.classList.add('active');
+                    link.setAttribute('aria-current', 'page');
+                }
+            });
+        });
+    </script>
+</head>
+<body>
+    <header>
+        <div class="topnav" id="myTopnav">
+            <img src="images/logo.jpeg" alt="Groundpepper Catering Logo" class="header-logo">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html" class="active">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="food_showcase.html">Food Showcase</a></li>
+                <li><a href="contact_us.html">Contact</a></li>
+                <li><a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <section class="about-page">
+            <div class="about-header">
+                <h1>About Ground Pepper Catering</h1>
+                <p>From the Ground to Your Table, Crafted with Care</p>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-story">
+                    <h2>Our Story</h2>
+                    <img src="images/ourstory.jpeg" alt="Ground Pepper Catering Team" class="about-image">
+                    <p>Ground Pepper Catering Services was founded in 2010 with the vision of bringing premium catering experiences to events big and small. What started as a small family business has grown into one of the most sought-after catering services in the region.</p>
+                    <p>Our founder, Leatile Tshabadira, began her culinary journey at a young age, learning traditional recipes from her grandmother. This passion for authentic, flavorful food became the foundation of our catering service.</p>
+                </div>
+                
+                <div class="mission-values">
+                    <div class="mission">
+                        <h3>Our Mission</h3>
+                        <p>To create unforgettable culinary experiences by combining exceptional food with outstanding service, tailored to each client's unique vision.</p>
+                    </div>
+                    <div class="values">
+                        <h3>Our Values</h3>
+                        <ul>
+                            <li>Quality ingredients sourced locally</li>
+                            <li>Attention to detail in every dish</li>
+                            <li>Professional and friendly service</li>
+                            <li>Customized solutions for each event</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="team">
+                    <h2>Meet Our Team</h2>
+                    <p>Our team of professional chefs and event specialists bring years of experience</p>
+                    
+                    <div class="team-members">
+                        <div class="team-member">
+                            <img src="images/lati.jpg" alt="Founder and Chef">
+                            <p>Founder and Chef</p>
+                        </div>
+                        
+                        <div class="team-member">
+                            <img src="images/akuje.jpg" alt="Co-founder and Chef">
+                            <p>Co-founder and Chef</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+   
+        <div class="footer-bottom">
+            <p>&copy; 2025 Ground Pepper Catering Services. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

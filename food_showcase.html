@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Showcase - Ground Pepper Catering</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <div class="topnav" id="myTopnav">
+            <img src="images/logo.jpeg" alt="Groundpepper Catering Logo" class="header-logo">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="food_showcase.html" class="active">Food Showcase</a></li>
+                <li><a href="contact_us.html">Contact</a></li>
+                <li><a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <section class="food-showcase">
+            <div class="showcase-header">
+                <h1>Our Culinary Creations</h1>
+                <p>A visual journey through our signature dishes</p>
+            </div>
+            
+            <div class="gallery-controls">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="appetizers">Appetizers</button>
+                <button class="filter-btn" data-filter="main-courses">Main Courses</button>
+                <button class="filter-btn" data-filter="desserts">Desserts</button>
+                <button class="filter-btn" data-filter="specialties">Specialties</button>
+            </div>
+            
+            <div class="gallery-container">
+                <div class="gallery-item" data-category="appetizers">
+                    <img src="images/appertizer.jpeg" alt="Bruschetta">
+                    <div class="item-info">
+                        <h3>Tomato Bruschetta</h3>
+                        <p>Fresh tomatoes, basil, and garlic on toasted bread</p>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="appetizers">
+                    <img src="images/avocado.jpeg" alt="Avocado Salad">
+                    <div class="item-info">
+                        <h3>Crispy Spring Rolls</h3>
+                        <p>Vegetable-filled rolls with sweet chili sauce</p>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="main-courses">
+                    <img src="images/potatoe.jpeg" alt="Potatoe strip">
+                    <div class="item-info">
+                        <h3>Grilled Salmon</h3>
+                        <p>With lemon butter sauce and seasonal vegetables</p>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="main-courses">
+                    <img src="images/spaghetti.jpeg" alt="spaghetti">
+                    <div class="item-info">
+                        <h3>Beef Tenderloin</h3>
+                        <p>Premium cut with red wine reduction</p>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="desserts">
+                    <img src="images/chocolate.jpeg" alt="Chocolate Mousse">
+                    <div class="item-info">
+                        <h3>Chocolate Mousse</h3>
+                        <p>Rich dark chocolate with raspberry coulis</p>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="desserts">
+                    <img src="images/cheesecake.jpeg" alt="Cheesecake">
+                    <div class="item-info">
+                        <h3>New York Cheesecake</h3>
+                        <p>Classic recipe with berry compote</p>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="specialties">
+                    <img src="images/pepperchick.jpeg" alt="Meaty Platter">
+                    <div class="item-info">
+                        <h3>Vegetarian Delight</h3>
+                        <p>Seasonal vegetable medley with quinoa</p>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="specialties">
+                    <img src="images/mdsteak.jpeg" alt="Roasted Steak">
+                    <div class="item-info">
+                        <h3>Seafood Paella</h3>
+                        <p>Spanish-style rice with fresh seafood</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="testimonials">
+                <h2>What Our Clients Say</h2>
+                <div class="testimonial-slider">
+                    <div class="testimonial">
+                        <p>"The food at our wedding was absolutely incredible! Our guests are still talking about the beef tenderloin."</p>
+                        <div class="client-info">
+                            <p>- Pule & Jane Marumo</p>
+                            <div class="stars">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                            <div class="footer-section">
+                                
+                                </div>  
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial">
+                        <p>"We've used Ground Pepper for three corporate events now, and they consistently deliver exceptional quality."</p>
+                        <div class="client-info">
+                            <p>- Farilake.inc</p>
+                            <div class="stars">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial">
+                        <p>"The vegetarian options were so creative and delicious - even the meat-eaters loved them!"</p>
+                        <div class="client-info">
+                            <p>- Joy Mokone</p>
+                            <div class="stars">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half-o"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        
+          
+                </ul>
+            </div>
+            
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Ground Pepper Catering Services. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
