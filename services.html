@@ -1,128 +1,159 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Our Services - Ground Pepper Catering</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Our Services - Ground Pepper Catering</title>
+  <link rel="stylesheet" href="styles.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
 </head>
 <body>
-    <header>
-        <div class="topnav" id="myTopnav">
-            <img src="images/logo.jpeg" alt="Groundpepper Catering Logo" class="header-logo">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="services.html" class="active">Services</a></li>
-                <li><a href="food_showcase.html">Food Showcase</a></li>
-                <li><a href="contact_us.html">Contact</a></li>
-                <li><a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                    <i class="fa fa-bars"></i>
-                </a></li>
-            </ul>
+
+<header>
+  <div class="topnav" id="myTopnav">
+    <a href="index.html">
+      <img src="images/logo.jpeg" alt="Groundpepper Catering Logo" class="header-logo" />
+    </a>
+    <a href="javascript:void(0);" class="icon" onclick="toggleNav()">
+      <i class="fa fa-bars"></i>
+    </a>
+    <ul>
+      <li><a href="index.html" class="nav-link">Home</a></li>
+      <li><a href="about.html" class="nav-link">About Us</a></li>
+      <li><a href="services.html" class="nav-link active">Services</a></li>
+      <li><a href="food_showcase.html" class="nav-link">Food Showcase</a></li>
+      <li><a href="contact_us.html" class="nav-link">Contact</a></li>
+    </ul>
+  </div>
+</header>
+
+<main>
+  <section class="services-page">
+    <div class="services-header">
+      <h1>Our Catering Services</h1>
+      <p>Tailored solutions for every occasion</p>
+    </div>
+
+    <div class="service-categories">
+      <div class="service-detail">
+        <img src="images/wedding.jpeg" alt="Wedding Catering">
+        <div class="service-info">
+          <h2>Wedding Catering</h2>
+          <p>Make your special day unforgettable with our exquisite wedding catering services. We offer customizable menus, elegant presentation, and professional service to complement your wedding theme.</p>
+          <ul>
+            <li>Custom menu planning</li>
+            <li>Plated dinners or buffet options</li>
+            <li>Wedding cake coordination</li>
+            <li>Bar service available</li>
+          </ul>
         </div>
-    </header>
+      </div>
 
-    <main>
-        <section class="services-page">
-            <div class="services-header">
-                <h1>Our Catering Services</h1>
-                <p>Tailored solutions for every occasion</p>
-            </div>
-            
-            <div class="service-categories">
-                <div class="service-detail">
-                    <img src="images/wedding.jpeg" alt="Wedding Catering">
-                    <div class="service-info">
-                        <h2>Wedding Catering</h2>
-                        <p>Make your special day unforgettable with our exquisite wedding catering services. We offer customizable menus, elegant presentation, and professional service to complement your wedding theme.</p>
-                        <ul>
-                            <li>Custom menu planning</li>
-                            <li>Plated dinners or buffet options</li>
-                            <li>Wedding cake coordination</li>
-                            <li> *Bar service available</li>
-                        </ul>
-                    </div>
-                </div>
-                
-                <div class="service-detail reverse">
-                    <img src="images/corporate.jpeg" alt="Corporate Events">
-                    <div class="service-info">
-                        <h2>Corporate Events</h2>
-                        <p>Impress your clients and colleagues with our professional corporate catering. From board meetings to large conferences, we deliver quality food and seamless service.</p>
-                        <ul>
-                            <li>Breakfast and lunch options</li>
-                            <li>Boxed lunches for meetings</li>
-                            <li>Cocktail reception catering</li>
-                            <li>Branded service options</li>
-                        </ul>
-                    </div>
-                </div>
-                
-                <div class="service-detail">
-                    <img src="images/private.jpeg" alt="Private Parties">
-                    <div class="service-info">
-                        <h2>Private Parties</h2>
-                        <p>Celebrate your special occasions with delicious food and stress-free hosting. We handle all the details so you can enjoy your party.</p>
-                        <ul>
-                            <li>Birthdays and anniversaries</li>
-                            <li>Holiday gatherings</li>
-                            <li>Graduation parties</li>
-                            <li>Themed events</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="pricing-section">
-                <h2>Pricing Options</h2>
-                <div class="pricing-cards">
-                    <div class="price-card">
-                        <h3>Basic Package</h3>
-                        <p class="price">P40 per person</p>
-                        <ul>
-                            <li>2 main course options</li>
-                            <li>2 side dishes</li>
-                            <li>Non-alcoholic beverages</li>
-                            <li>Standard service</li>
-                        </ul>
-                    </div>
-                    
-                    <div class="price-card featured">
-                        <h3>Premium Package</h3>
-                        <p class="price">P50 per person</p>
-                        <ul>
-                            <li>4 main course options</li>
-                            <li>4 side dishes</li>
-                            <li>Premium beverage selection</li>
-                            <li>Enhanced service</li>
-                            <li>Dessert station</li>
-                        </ul>
-                    </div>
-                    
-                    <div class="price-card">
-                        <h3>Custom Package</h3>
-                        <p class="price">Contact us</p>
-                        <ul>
-                            <li>Fully customized menu</li>
-                            <li>Special dietary options</li>
-                            <li>Bar service available</li>
-                            <li>Personalized consultation</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <footer>
-       
-        <div class="footer-bottom">
-            <p>&copy; 2025 Ground Pepper Catering Services. All rights reserved.</p>
+      <div class="service-detail reverse">
+        <img src="images/corporate.jpeg" alt="Corporate Events">
+        <div class="service-info">
+          <h2>Corporate Events</h2>
+          <p>Impress your clients and colleagues with our professional corporate catering. From board meetings to large conferences, we deliver quality food and seamless service.</p>
+          <ul>
+            <li>Breakfast and lunch options</li>
+            <li>Boxed lunches for meetings</li>
+            <li>Cocktail reception catering</li>
+            <li>Branded service options</li>
+          </ul>
         </div>
-    </footer>
+      </div>
 
-    <script src="script.js"></script>
+      <div class="service-detail">
+        <img src="images/private.jpeg" alt="Private Parties">
+        <div class="service-info">
+          <h2>Private Parties</h2>
+          <p>Celebrate your special occasions with delicious food and stress-free hosting. We handle all the details so you can enjoy your party.</p>
+          <ul>
+            <li>Birthdays and anniversaries</li>
+            <li>Holiday gatherings</li>
+            <li>Graduation parties</li>
+            <li>Themed events</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="pricing-section">
+      <h2>Pricing Options</h2>
+      <div class="pricing-cards">
+        <div class="price-card">
+          <h3>Basic Package</h3>
+          <p class="price">P40 per person</p>
+          <ul>
+            <li>2 main course options</li>
+            <li>2 side dishes</li>
+            <li>Non-alcoholic beverages</li>
+            <li>Standard service</li>
+          </ul>
+        </div>
+
+        <div class="price-card featured">
+          <h3>Premium Package</h3>
+          <p class="price">P50 per person</p>
+          <ul>
+            <li>4 main course options</li>
+            <li>4 side dishes</li>
+            <li>Premium beverage selection</li>
+            <li>Enhanced service</li>
+            <li>Dessert station</li>
+          </ul>
+        </div>
+
+        <div class="price-card">
+          <h3>Custom Package</h3>
+          <p class="price">Contact us</p>
+          <ul>
+            <li>Fully customized menu</li>
+            <li>Special dietary options</li>
+            <li>Bar service available</li>
+            <li>Personalized consultation</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="footer-bottom">
+    <p>&copy; 2025 Ground Pepper Catering Services. All rights reserved.</p>
+  </div>
+</footer>
+
+<script>
+  function toggleNav() {
+    const nav = document.getElementById("myTopnav");
+    nav.classList.toggle("responsive");
+    document.body.style.overflow = nav.classList.contains("responsive") ? "hidden" : "auto";
+  }
+
+  document.addEventListener('DOMContentLoaded', function () {
+    const nav = document.getElementById("myTopnav");
+
+    // Collapse menu on link click for mobile
+    document.querySelectorAll('.topnav .nav-link').forEach(link => {
+      link.addEventListener('click', () => {
+        if (window.innerWidth <= 768) {
+          nav.classList.remove("responsive");
+          document.body.style.overflow = "auto";
+        }
+      });
+    });
+
+    // Collapse menu on resize
+    window.addEventListener('resize', function () {
+      if (window.innerWidth > 768) {
+        nav.classList.remove("responsive");
+        document.body.style.overflow = "auto";
+      }
+    });
+  });
+</script>
+
 </body>
 </html>
